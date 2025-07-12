@@ -47,6 +47,7 @@ namespace lag {
 				if (m_pBuffer) m_pBuffer->Release();
 				CloneItem(std::move(other));
 			}
+			return *this;
 		}
 		ID3D11Buffer* GetBuffer() { return this->m_pBuffer; }
 		ID3D11Buffer** GetBufferPtr() { return &this->m_pBuffer; }

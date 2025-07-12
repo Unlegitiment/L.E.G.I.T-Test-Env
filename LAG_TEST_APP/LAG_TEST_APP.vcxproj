@@ -136,6 +136,10 @@
   <ItemGroup>
     <ClInclude Include="grc\Buffer.h" />
     <ClInclude Include="grc\device.h" />
+    <ClInclude Include="grc\image.h" />
+    <ClInclude Include="grc\vertexbuffer.h" />
+    <ClInclude Include="loaders.h" />
+    <ClInclude Include="thirdparty\stb_image.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
